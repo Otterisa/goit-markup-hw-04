@@ -14,42 +14,41 @@
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <title>Portofolio</title>
   </head>
-  <body class="container">
-      <div class="header-container">
-        <!--Header section-->
-        <header class="global-header section">
-          <div class="container">
-          <a href="index.html" class="logo">WebStudio</a>
+  <body>
+    <!--Header section-->
+    <header>
+      <div class="container header">
+        <a href="index.html" class="logo">WebStudio</a>
 
-          <nav class="header-navigation">
-            <ul>
-              <li><a href="studio.html" class="header-studio">Studio</a></li>
-              <li>
-                <a href="portofolio.html" class="active-portofolio"
-                  >Portofolio</a
-                >
-              </li>
-              <li>
-                <a href="portofolio.html" class="header-contacts">Contacts</a>
-              </li>
-            </ul>
-          </nav>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="studio.html" class="header-studio">Studio</a></li>
+            <li>
+              <a href="portofolio.html" class="header-portofolio">Portofolio</a>
+            </li>
+            <li>
+              <a href="contacts.html" class="header-contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-          <div class="global-address">
-          
-            <a href="mailto:info@devstudio.com" class="address header-address mail"
-              >info@devstudio.com</a>
+        <div class="global-address">
+          <a
+            href="mailto:info@devstudio.com"
+            class="address header-address mail"
+            >info@devstudio.com</a
+          >
 
-            <a href="tel:+1-212-772-4150" class="address header-address phone"
-              >+1 212-772-4150</a>
-          </div>
-          </div>
-        </header>
+          <a href="tel:+1-212-772-4150" class="address header-address phone"
+            >+1 212-772-4150</a
+          >
+        </div>
       </div>
-
-      <hr />
-      <main class="section">
-        <div class="middle-section">
+    </header>
+    <hr />
+    <main class="section">
+      <div class="container">
+        <div class="section">
           <!--Buttons section-->
           <nav class="main-buttons">
             <button class="button">All</button>
@@ -69,8 +68,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Technoduck</p>
-                <p class="second-under-image">Web-site</p>
+                <div class="border">
+                  <p class="first-under-image">Technoduck</p>
+                  <p class="second-under-image">Web-site</p>
+                </div>
               </li>
 
               <li>
@@ -80,10 +81,12 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">
-                  Poster New Orlean vs Golden Star
-                </p>
-                <p class="second-under-image">Design</p>
+                <div class="border">
+                  <p class="first-under-image">
+                    Poster New Orlean vs Golden Star
+                  </p>
+                  <p class="second-under-image">Design</p>
+                </div>
               </li>
 
               <li>
@@ -93,8 +96,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Seafood Restaurant</p>
-                <p class="second-under-image">Apps</p>
+                <div class="border">
+                  <p class="first-under-image">Seafood Restaurant</p>
+                  <p class="second-under-image">Apps</p>
+                </div>
               </li>
 
               <li>
@@ -104,8 +109,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Project Prime</p>
-                <p class="second-under-image">Marketing</p>
+                <div class="border">
+                  <p class="first-under-image">Project Prime</p>
+                  <p class="second-under-image">Marketing</p>
+                </div>
               </li>
 
               <li>
@@ -115,8 +122,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Project Boxes</p>
-                <p class="second-under-image">Apps</p>
+                <div class="border">
+                  <p class="first-under-image">Project Boxes</p>
+                  <p class="second-under-image">Apps</p>
+                </div>
               </li>
 
               <li>
@@ -126,8 +135,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Inspiration has no Borders</p>
-                <p class="second-under-image">Web-site</p>
+                <div class="border">
+                  <p class="first-under-image">Inspiration has no Borders</p>
+                  <p class="second-under-image">Web-site</p>
+                </div>
               </li>
 
               <li>
@@ -137,8 +148,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Limited Edition</p>
-                <p class="second-under-image">Design</p>
+                <div class="border">
+                  <p class="first-under-image">Limited Edition</p>
+                  <p class="second-under-image">Design</p>
+                </div>
               </li>
 
               <li>
@@ -148,8 +161,10 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Project LAB</p>
-                <p class="second-under-image">Marketing</p>
+                <div class="border">
+                  <p class="first-under-image">Project LAB</p>
+                  <p class="second-under-image">Marketing</p>
+                </div>
               </li>
 
               <li>
@@ -159,27 +174,37 @@
                   width="370"
                   height="294"
                 />
-                <p class="first-under-image">Growing Business</p>
-                <p class="second-under-image">Apps</p>
+                <div class="border">
+                  <p class="first-under-image">Growing Business</p>
+                  <p class="second-under-image">Apps</p>
+                </div>
               </li>
             </ul>
           </div>
         </div>
+      </div>
+    </main>
+    <!--Footer section-->
 
-        <!--Footer section-->
-        <footer class="footer-info">
-          <a href="index.html" class="logo"> WebStudio </a>
-          <address class="address-info">
-            695 Park Ave, NY 10065, USA
-            <a href="mailto:info@devstudio.com" class="address footer-address"
-              >info@devstudio.com</a
-            >
-            <a href="tel:+1-212-772-4150" class="address footer-address"
-              >+1 212-772-4150</a
-            >
-          </address>
-        </footer>
-      </main>
-    </div>
+    <footer class="footer-background-fullwidth">
+      <div class="container footer">
+        <a href="index.html" class="logo logo-footer"> WebStudio </a>
+        <address class="address-info">
+          <div>
+            <p class="detailed-address">695 Park Ave, NY 10065, USA</p>
+            <div class="footer-mail">
+              <a href="mailto:info@devstudio.com" class="address footer-address"
+                >info@devstudio.com</a
+              >
+            </div>
+            <div>
+              <a href="tel:+1-212-772-4150" class="address footer-address"
+                >+1 212-772-4150</a
+              >
+            </div>
+          </div>
+        </address>
+      </div>
+    </footer>
   </body>
 </html>

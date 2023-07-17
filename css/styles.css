@@ -16,9 +16,11 @@ ul {
   font-family: Raleway;
   font-weight: var(--big-font-weight);
   color: #2196f3;
+  width: 145px;
+  height: 31px;
 }
 
-a.active-portofolio {
+a.header-portofolio {
   color: #2196f3;
   font-size: 14px;
   font-family: var(--font-family);
@@ -61,6 +63,13 @@ a.active-portofolio {
 .button:hover,
 .button:focus {
   background-color: #2196f3;
+  color: #fff;
+}
+
+.images-section .first-under-image {
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: var(--big-font-weight);
 }
 
 .images-section .second-under-image {
@@ -70,80 +79,47 @@ a.active-portofolio {
   font-weight: var(--small-font-weight);
 }
 
-.images-section .first-under-image {
-  font-size: 18px;
-  font-family: var(--font-family);
-  font-weight: var(--big-font-weight);
-}
-
 .container {
   width: 1600px;
+  margin: 0 auto;
 }
 
-.footer-info {
-  background: #2f303a;
-}
-
-.address-info {
-  color: #fff;
-  font-size: 14px;
-  font-family: var(--font-family);
-  font-weight: var(--small-font-weight);
-}
-
-.header-container {
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   height: 80px;
+}
+
+.header .header-navigation ul {
   display: flex;
-  align-items: first baseline;
-  flex-shrink: 0;
+  align-items: baseline;
 }
 
-.global-header {
-  display: flex;
+.header-studio {
+  margin-right: 50px;
 }
 
-.global-header .logo {
-  margin: 24px 93px 25px 215px;
+.header-portofolio {
+  margin: 0px 50px 0px 0px;
 }
 
-.global-header .header-navigation ul {
-  display: flex;
-  margin: 32px 0px;
+.mail {
+  margin-right: 40px;
 }
 
-.global-header .address .header-address {
-  display: flex;
-}
-.global-address {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1600px;
-}
-
-.header-navigation .header-studio {
-  margin: 32px 50px 32px 93px;
-}
-
-.header-navigation .active-portofolio {
-  margin: 32px 50px;
-}
-
-.header-navigation .header-contacts {
-  margin: 32px 376px 32px 50px;
-}
-
-.global-header .global-address .mail {
-  margin: 32px 40px 32px 376px;
-}
-
-.global-header .global-address .phone {
-  margin: 32px 225px 32px 40px;
-  width: 122px;
+.section {
+  padding: 94px 0px;
 }
 
 .main-buttons {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  margin-right: 8px;
 }
 
 .main-pic ul {
@@ -151,4 +127,40 @@ a.active-portofolio {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+}
+
+.address-info {
+  color: #fff;
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: var(--small-font-weight);
+  margin: 0px 0px 0px 215px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-background-fullwidth {
+  background: #2f303a;
+  height: 251px;
+}
+
+.logo-footer {
+  margin: 60px 0px 28px 215px;
+}
+
+.footer-mail {
+  display: flex;
+  padding: 12px 0px;
+}
+
+.detailed-address {
+  margin: 0px;
+}
+
+.border {
+  border: 1px solid #eee;
+  background: #fff;
 }
