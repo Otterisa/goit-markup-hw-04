@@ -56,6 +56,13 @@ a.header-portofolio {
   color: #2196f3;
 }
 
+.header-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
 .button {
   cursor: pointer;
 }
@@ -163,4 +170,49 @@ a.header-portofolio {
 .border {
   border: 1px solid #eee;
   background: #fff;
+}
+
+.header-icons {
+  width: 16px;
+  height: 16px;
+  color: #757575;
+  gap: 10px;
+}
+
+.footer-section {
+  display: flex;
+}
+
+.social-media-footer {
+  color: #fff;
+  margin-top: 48px;
+  margin-left: 80px;
+}
+
+.footer-svg-main {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-svg-bg-dimensions {
+  color: #f5f4fa;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-svg-bg-dimensions:hover,
+.footer-svg-bg-dimensions:focus {
+  background-color: #2196f3;
+  color: #fff;
 }
