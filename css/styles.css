@@ -79,6 +79,7 @@ a.header-portofolio {
   font-size: 18px;
   font-family: var(--font-family);
   font-weight: var(--big-font-weight);
+  margin-left: 24px;
 }
 
 .images-section .second-under-image {
@@ -86,6 +87,7 @@ a.header-portofolio {
   font-size: 16px;
   font-family: var(--font-family);
   font-weight: var(--small-font-weight);
+  margin-left: 24px;
 }
 
 .container {
@@ -217,4 +219,8 @@ a.header-portofolio {
 .footer-svg-bg-dimensions:focus {
   background-color: #2196f3;
   color: #fff;
+}
+
+.main-pic li:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
